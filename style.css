@@ -1,2 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.all{
+    background-image: url('images/jewel.jpeg');
+    background-size: cover;          
+    background-position: center;     
+    min-height: 80vh;              
+    color: black;  
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;                 
+
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    
+}
+
+.links{
+    display: flex;
+    gap: 4rem;
+    background-color: black;
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        
+    }
+
+}
+
+.links a:hover{
+    color: black;
+    background-color: white;
+}
+
+.home{
+    text-align: center;
+    font-size: large;
+
+    p{
+        margin-bottom: 20px;
+        color: white;
+    }
+}
+
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+h2{
+    margin-bottom: 5px;
+}
+
+.shop{
+    text-decoration: none;
+    border: 3px solid white;
+    font-size:xx-large;
+    color: black;
+}
+
+.shop:hover{
+    color: black; 
+  background: white;       
+  border-color: white;
+    
+}
 
 
