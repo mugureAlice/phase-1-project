@@ -1,0 +1,141 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Matte Liquid Lipstick",
+        "category": "makeup",
+        "price": 12.99,
+        "description": "Long-lasting matte finish lipstick in 10 shades",
+        "image": "https://example.com/lipstick.jpg",
+        "rating": 4.5,
+        "inStock": true,
+        "brand": "BeautyPro"
+      },
+      {
+        "id": 2,
+        "name": "Diamond Stud Earrings",
+        "category": "jewelry",
+        "price": 89.99,
+        "description": "14K gold plated with genuine cubic zirconia",
+        "image": "https://example.com/earrings.jpg",
+        "rating": 4.8,
+        "inStock": true,
+        "brand": "GlamJewels"
+      },
+      {
+        "id": 3,
+        "name": "Argan Oil Hair Mask",
+        "category": "hair",
+        "price": 19.99,
+        "description": "Deep conditioning treatment for damaged hair",
+        "image": "https://example.com/hairmask.jpg",
+        "rating": 4.7,
+        "inStock": true,
+        "brand": "HairRevive"
+      },
+      {
+        "id": 4,
+        "name": "Lace Front Wig - Honey Blonde",
+        "category": "wigs",
+        "price": 129.99,
+        "description": "180% density, pre-plucked hairline, 12-14 inches",
+        "image": "https://example.com/wig.jpg",
+        "rating": 4.9,
+        "inStock": false,
+        "brand": "WigQueen"
+      },
+      {
+        "id": 5,
+        "name": "Denim Jacket",
+        "category": "clothing",
+        "price": 45.99,
+        "description": "Stretch denim with distressed details",
+        "image": "https://example.com/jacket.jpg",
+        "rating": 4.3,
+        "inStock": true,
+        "brand": "UrbanThreads"
+      },
+      {
+        "id": 6,
+        "name": "Eyeshadow Palette - Nude",
+        "category": "makeup",
+        "price": 24.99,
+        "description": "12 highly pigmented neutral shades",
+        "image": "https://example.com/palette.jpg",
+        "rating": 4.6,
+        "inStock": true,
+        "brand": "ColorPop"
+      },
+      {
+        "id": 7,
+        "name": "Personalized Name Necklace",
+        "category": "jewelry",
+        "price": 39.99,
+        "description": "Custom gold or silver name pendant",
+        "image": "https://example.com/necklace.jpg",
+        "rating": 4.9,
+        "inStock": true,
+        "brand": "ChicCharms"
+      },
+      {
+        "id": 8,
+        "name": "Heat Protectant Spray",
+        "category": "hair",
+        "price": 14.99,
+        "description": "Protects up to 450°F, UV filters",
+        "image": "https://example.com/heatspray.jpg",
+        "rating": 4.4,
+        "inStock": true,
+        "brand": "HairShield"
+      },
+      {
+        "id": 9,
+        "name": "Curly Bob Wig - Black",
+        "category": "wigs",
+        "price": 79.99,
+        "description": "Synthetic curly bob with adjustable straps",
+        "image": "https://example.com/curlywig.jpg",
+        "rating": 4.2,
+        "inStock": true,
+        "brand": "CurlMaster"
+      },
+      {
+        "id": 10,
+        "name": "High-Waist Jeans",
+        "category": "clothing",
+        "price": 34.99,
+        "description": "Skinny fit with tummy control panel",
+        "image": "https://example.com/jeans.jpg",
+        "rating": 4.1,
+        "inStock": true,
+        "brand": "DenimDays"
+      }
+    ],
+    "categories": [
+      {
+        "id": 1,
+        "name": "makeup",
+        "displayName": "Makeup"
+      },
+      {
+        "id": 2,
+        "name": "jewelry",
+        "displayName": "Jewelry"
+      },
+      {
+        "id": 3,
+        "name": "hair",
+        "displayName": "Hair Products"
+      },
+      {
+        "id": 4,
+        "name": "wigs",
+        "displayName": "Wigs"
+      },
+      {
+        "id": 5,
+        "name": "clothing",
+        "displayName": "Clothing"
+      }
+    ]
+  }
