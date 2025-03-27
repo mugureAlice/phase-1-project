@@ -9,7 +9,7 @@
     background-image: url('images/clothes.avif');
     background-size: cover;          
     background-position: center;     
-    min-height: 80vh;              
+    min-height: 100vh;              
     color: black;  
     font-family: "Lora", serif;
     font-optical-sizing: auto;
@@ -92,7 +92,7 @@ h2{
     text-align: center;
     background-size: cover;          
     background-position: center;
-    min-height: 80vh;
+    min-height: 100vh;
     border-top: 50px solid black;
 }
 
@@ -121,6 +121,7 @@ h2{
     text-align: center;
     padding: 2rem 1rem;
     margin-top: 2rem;
+    
   }
   
 
