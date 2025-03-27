@@ -53,7 +53,10 @@ document.addEventListener("DOMContentLoaded", function () {
         displayProducts(filteredProducts);
     });
 
-    
+    shopNowBtn.addEventListener("click", function (e) {
+        e.preventDefault();
+        displayProducts(products);
+    });
     
 });
 
