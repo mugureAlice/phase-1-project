@@ -16,14 +16,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     function displayProducts(products) {
-        productsContainer.innerHTML = ""; 
-
+        
         products.forEach((product) => {
             const productElement = document.createElement("div");
             productElement.className = "single-product";
 
             productElement.innerHTML = `
-                <h5>${product.name}</h5>
+                <h2>${product.name}</h2>
                 <img src="${product.image}" alt="${product.name}">
                 <p>${product.description}</p>
                 <div>${product.category}</div>
