@@ -13,7 +13,6 @@
     color: black;  
     font-family: "Lora", serif;
     font-optical-sizing: auto;
-    
     font-style: normal;                 
 
 }
@@ -89,10 +88,20 @@ h2{
 }
 
 #about{
-    background-image: url'(images/clothes.avif)';
+    background-image: url('images/waaaa.avif');
     text-align: center;
     background-size: cover;          
     background-position: center;
+    min-height: 80vh;
+    border-top: 50px solid black;
 }
 
+#about p{
+    color: aliceblue;
+}
+
+#about h2 p{
+    justify-content: center;
+    font-size: xx-large;
+}
 
