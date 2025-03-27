@@ -115,7 +115,13 @@ h2{
     margin-bottom: 1rem;
   }  
 
- 
+  #footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+  }
   
 
 
