@@ -47,6 +47,13 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    const jewelery_products = document.querySelector(".jewelry-products")
+    jewelery_products .addEventListener("click", () => {
+        const filteredProducts = products.filter(product => product.category === "jewelry");
+        displayProducts(filteredProducts);
+    });
+
+    
     
 });
 
