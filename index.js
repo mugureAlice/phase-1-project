@@ -29,4 +29,24 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 });
 
+function displayProducts(products) { 
+    const productsContainer = document.querySelector('#products');
+    productsContainer.innerHTML = ''; 
 
+    products.forEach(product => {
+        const productElement = document.createElement('div');
+        productElement.className = 'single-product';
+        productElement.innerHTML = `
+            <h5>${product.name}</h5>
+            <img src="${product.image}" alt="${product.name}">
+            <p>${product.description}</p>
+            <div>${product.category}</div>
+            <div>$${product.price}</div>
+            <div id="buttons">
+                <button class="shop-category">Shop Now</button>
+            </div>
+        `;
+        productsContainer.appendChild(productElement);
+    
+    });
+}
