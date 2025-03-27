@@ -1,39 +1,20 @@
 document.addEventListener('DOMContentLoaded', function() {
     const baseUrl = 'http://localhost:3001/products';
     const shopNowBtn = document.querySelector('.shop');
-    const makeup = document.querySelector('.makeup-products');
-    const jewelry = document.querySelector('.jewelry-products');
-    const clothing = document.querySelector('.clothing-products');
-    const companyName = document.querySelector('.CompanyName');
-    const body = document.body;
     const productsContainer = document.querySelector('#products'); 
+    const products = [];
 
     fetch(baseUrl)
-        .then(res => {
-            if (!res.ok) {
-                throw new Error(res);
-            }
-            return response.json();
-        })
+        .then(res => res.json())
         .then(data => {
-            const products = data.products;
-            const categories = data.categories;
-
-            shopNowBtn.addEventListener('click', function(e) {
-                e.preventDefault();
-                displayProducts(products); 
-            });
+            products = data;
         })
-        .catch(err => {
-            return (err);
-        });
-});
+    .catch((err) => console.log(err));
 
 function displayProducts(products) { 
-    const productsContainer = document.querySelector('#products');
-    productsContainer.innerHTML = ''; 
+     productsContainer.innerHTML = ''; 
 
-    products.forEach(product => {
+    products.forEach((product) => {
         const productElement = document.createElement('div');
         productElement.className = 'single-product';
         productElement.innerHTML = `
@@ -41,7 +22,7 @@ function displayProducts(products) {
             <img src="${product.image}" alt="${product.name}">
             <p>${product.description}</p>
             <div>${product.category}</div>
-            <div>$${product.price}</div>
+            <div>${product.price}</div>
             <div id="buttons">
                 <button class="shop-category">Shop Now</button>
             </div>
@@ -49,4 +30,49 @@ function displayProducts(products) {
         productsContainer.appendChild(productElement);
     
     });
+
+
+
+document.querySelectorAll(".shop-category")
+shop-category.forEach((button) => {
+    button.addEventListener("click", () => {
+        alert("Item added to cart!");
+    });
+});
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+})
