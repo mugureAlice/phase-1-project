@@ -6,7 +6,7 @@
         "category": "makeup",
         "price": 12.99,
         "description": "Long-lasting matte finish lipstick in 10 shades",
-        "image": "https://unsplash.com/photos/a-bottle-of-nail-polish-sitting-on-a-table-lZ093FhMJHA",
+        "image": "images/Matte.avif",
         "rating": 4.5,
         "inStock": true,
         "brand": "BeautyPro"
@@ -17,7 +17,7 @@
         "category": "jewelry",
         "price": 89.99,
         "description": "14K gold plated with genuine cubic zirconia",
-        "image": "https://example.com/earrings.jpg",
+        "image": "images/Diamond.jpg",
         "rating": 4.8,
         "inStock": true,
         "brand": "GlamJewels"
@@ -28,7 +28,7 @@
         "category": "hair",
         "price": 19.99,
         "description": "Deep conditioning treatment for damaged hair",
-        "image": "https://example.com/hairmask.jpg",
+        "image": "images/oil.jpg",
         "rating": 4.7,
         "inStock": true,
         "brand": "HairRevive"
@@ -39,7 +39,7 @@
         "category": "wigs",
         "price": 129.99,
         "description": "180% density, pre-plucked hairline, 12-14 inches",
-        "image": "https://example.com/wig.jpg",
+        "image": "images/hair.jpg",
         "rating": 4.9,
         "inStock": false,
         "brand": "WigQueen"
@@ -50,7 +50,7 @@
         "category": "clothing",
         "price": 45.99,
         "description": "Stretch denim with distressed details",
-        "image": "https://example.com/jacket.jpg",
+        "image": "images/Denim.jpg",
         "rating": 4.3,
         "inStock": true,
         "brand": "UrbanThreads"
@@ -61,7 +61,7 @@
         "category": "makeup",
         "price": 24.99,
         "description": "12 highly pigmented neutral shades",
-        "image": "https://example.com/palette.jpg",
+        "image": "images/Palette.jpg",
         "rating": 4.6,
         "inStock": true,
         "brand": "ColorPop"
@@ -72,7 +72,7 @@
         "category": "jewelry",
         "price": 39.99,
         "description": "Custom gold or silver name pendant",
-        "image": "https://example.com/necklace.jpg",
+        "image": "images/Necklace.jpg",
         "rating": 4.9,
         "inStock": true,
         "brand": "ChicCharms"
@@ -83,7 +83,7 @@
         "category": "hair",
         "price": 14.99,
         "description": "Protects up to 450°F, UV filters",
-        "image": "https://example.com/heatspray.jpg",
+        "image": "images/Protectant.jpg",
         "rating": 4.4,
         "inStock": true,
         "brand": "HairShield"
@@ -94,7 +94,7 @@
         "category": "wigs",
         "price": 79.99,
         "description": "Synthetic curly bob with adjustable straps",
-        "image": "https://example.com/curlywig.jpg",
+        "image": "images/Curly.jpg",
         "rating": 4.2,
         "inStock": true,
         "brand": "CurlMaster"
@@ -105,7 +105,7 @@
         "category": "clothing",
         "price": 34.99,
         "description": "Skinny fit with tummy control panel",
-        "image": "https://example.com/jeans.jpg",
+        "image": "images/Highwaist.avif",
         "rating": 4.1,
         "inStock": true,
         "brand": "DenimDays"

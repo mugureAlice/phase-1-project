@@ -7,17 +7,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     
     fetch(baseUrl)
-        .then((res) => {
-            if (!res.ok) {
-                throw new Error("Failed to fetch products");
-            }
-            return res.json();
-        })
+        .then((res) => res.json())
         .then((data) => {
             products = data;
             displayProducts(products);
         })
-        .catch((err) => console.error(err));
+        .catch((err) => {return(err)});
 
 
     function displayProducts(products) {
