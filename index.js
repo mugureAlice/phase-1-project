@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
        const shop_category = document.querySelectorAll(".shop-category")
        shop_category .forEach((button) => {
             button.addEventListener("click", () => {
-                alert("Item added to cart!");
+               return ('Item added to cart!')
             });
         });
     }
