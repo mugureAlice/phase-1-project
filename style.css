@@ -65,18 +65,18 @@ footer {
 
 #home {
     position: relative;
-    background: url('your-image.jpg') no-repeat center center/cover;
-    height: 100vh; /* Adjust height as needed */
+    background: url('your-image.jpg');
+    height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white; /* Ensure visibility */
+    color: white; 
     padding: 20px;
 }
 
 .home {
-    background: rgba(0, 0, 0, 0.5); /* Optional: Adds a dark overlay for better text visibility */
+    background: rgba(0, 0, 0, 0.5); 
     padding: 20px;
     border-radius: 10px;
 }
@@ -100,14 +100,14 @@ h2{
 }
 
 #about {
-    background: url('images/wow.jpeg') no-repeat center center/cover;
-    height: 100vh; /* Adjust based on how much space you want */
+    background: url('images/wow.jpeg');
+    height: 100vh; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: xx-large; /* Adjust for readability */
+    font-size: xx-large; 
     color: aliceblue;
     padding: 20px;
     border-top: 60px solid black;
@@ -238,11 +238,6 @@ h2{
 
  }
 
-.footer-form button:hover{
-    background-color: white;
-    color: black;
-
-}
 
  .bottom-text{
     margin-top: 10px;
