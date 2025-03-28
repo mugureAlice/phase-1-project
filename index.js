@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const baseUrl = "http://localhost:3001/products";
+    const baseUrl = "https://phase-1-project-dusky.vercel.app/";
     
     const shopNowBtn = document.querySelector(".shop");
     const productsContainer = document.querySelector("#products");
