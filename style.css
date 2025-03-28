@@ -61,31 +61,28 @@ footer {
     }
 }
 
-
-
-
-
-
-.home{
-    text-align: center;
-    font-size: large;
-    align-items: center;
-    justify-content: baseline;
-    
-    p{
-        margin-bottom: 20px;
-        color: white;
-    }
-}
-
-#home{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: xx-large;
+#home {
     position: relative;
-    bottom: 100;
+    background: url('your-image.jpg') no-repeat center center/cover;
+    height: 100vh; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* Ensure visibility */
+    padding: 20px;
 }
+
+.home {
+    background: rgba(0, 0, 0, 0.5); /* Optional: Adds a dark overlay for better text visibility */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+
 
 h2{
     margin-bottom: 5px;
@@ -106,7 +103,7 @@ h2{
 }
 
 #about {
-    background: url('images/waaaa.avif') no-repeat center center/cover;
+    background: url('images/wow.jpeg') no-repeat center center/cover;
     height: 100vh; /* Adjust based on how much space you want */
     display: flex;
     flex-direction: column;
@@ -114,19 +111,20 @@ h2{
     justify-content: center;
     text-align: center;
     font-size: xx-large; /* Adjust for readability */
-    color: white;
+    color: aliceblue;
     padding: 20px;
-    border-top: 10px solid black;
+    border-top: 60px solid black;
+    
 }
 
-#about p{
-    color: aliceblue;
+#about h2{
+    color: black;
 }
 
 #about h2 p{
     justify-content: center;
     font-size: xx-large;
-    color: white;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 #products h2 {
@@ -139,8 +137,8 @@ h2{
     flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
-    background-color: black;
-    border-top: 30px solid white;
+    background-color: darkgrey;
+    border-top: 60px solid black;
     
   }
 
