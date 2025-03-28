@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 body {
     margin: 0;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;                 
+
     
 }
 nav {
@@ -29,14 +33,16 @@ footer {
 
 .all{
     background-image: url('images/clothes.avif');
-    background-size: cover;          
-    background-position: center;     
-    min-height: 100vh;              
-    color: black;  
-    font-family: "Lora", serif;
-    font-optical-sizing: auto;
-    font-style: normal;                 
-
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-bottom: 10px solid black ;
+     
+    
 }
 
 .CompanyName{
@@ -89,7 +95,7 @@ h2{
     text-decoration: none;
     border: 3px solid white;
     font-size:xx-large;
-    color: black;
+    color: pink;
 }
 
 .shop:hover{
@@ -107,8 +113,10 @@ h2{
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white; /* Adjust for readability */
+    font-size: xx-large; /* Adjust for readability */
+    color: white;
     padding: 20px;
+    border-top: 10px solid black;
 }
 
 #about p{
@@ -118,6 +126,7 @@ h2{
 #about h2 p{
     justify-content: center;
     font-size: xx-large;
+    color: white;
 }
 
 #products h2 {
