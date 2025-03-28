@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
             productElement.className = "single-product";
 
             productElement.innerHTML = `
-                <h2>${product.name}</h2>
+                <h5>${product.name}</h5>
                 <img src="${product.image}" alt="${product.name}">
                 <p>${product.description}</p>
                 <div>${product.category}</div>
@@ -51,6 +51,11 @@ document.addEventListener("DOMContentLoaded", function () {
         e.preventDefault();
         displayProducts(products);
     });
+
+    const form = document.querySelector("form")
+    form.addEventListener("submit", function(event){
+        event.preventDefault();
+    })
     
 });
 
