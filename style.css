@@ -1,8 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-*{
+body {
     margin: 0;
-    padding: 0;
     
+}
+nav {
+    background:black;
+    color: white;
+    padding: 0px;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content {
+    margin-top: 60px; 
+    padding: 20px;
+    min-height: 100vh;
+}
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
 .all{
@@ -20,33 +42,23 @@
 .CompanyName{
     color: aliceblue;
     font-size: xx-large;
+    margin: 20px;
 }
 
-.nav{
+.nav-links{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: larger;
-    
-}
+    gap: 15px;
 
-.links{
-    display: flex;
-    gap: 4rem;
-    background: transparent;
-    position: relative;
     a{
         text-decoration: none;
         color: white;
-        font-weight: 700;
-        
     }
-
 }
+
+
+
+
+
 
 .home{
     text-align: center;

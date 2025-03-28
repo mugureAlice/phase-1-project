@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div>Price: $${product.price}</div>
                 <button class="shop-category">Shop Now</button>
             `;
-
+            
             productsContainer.appendChild(productElement);
         });
 
