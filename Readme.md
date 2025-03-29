@@ -1,3 +1,4 @@
+https://mugurealice.github.io/phase-1-project/
 <!-- Amatal Beauty & Fashion E-Commerce -->
 <!-- features -->
 - Fetches product data from local API (`localhost:3001/products`)
