@@ -1,11 +1,10 @@
 https://mugurealice.github.io/phase-1-project/
 <!-- Amatal Beauty & Fashion E-Commerce -->
 <!-- features -->
-- Fetches product data from local API (`localhost:3001/products`)
+- Fetches product data 
 - Displays products with images, descriptions, and prices
-- Basic category filtering (jewelry)
-- Contact form with validation
-- Responsive navigation
+- Contact form 
+- Fixed navigation bar
 
 <!-- Technologies Used -->
 HTML
@@ -18,9 +17,11 @@ JAVASCRIPT
    git clone (https://github.com/yourusername/amatal-beauty.git === SSH key)
 
    <!-- Install JSON Server  -->
+   bash
    npm install -g json-server
 
     <!-- Start JSON server  -->
+   bash
     json-server --watch db.json
  
    <!-- it entails  -->
@@ -28,4 +29,5 @@ JAVASCRIPT
    - Fetch API for data retrieval
    - Event listeners
    - Basic form handling
+   - forEach and filtering
 
